@@ -19,6 +19,7 @@
 		CA09E7DC19B02F42007394F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA09E7C419B02F42007394F5 /* UIKit.framework */; };
 		CA09E7E419B02F42007394F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA09E7E219B02F42007394F5 /* InfoPlist.strings */; };
 		CA09E7E619B02F42007394F5 /* FileViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA09E7E519B02F42007394F5 /* FileViewTests.m */; };
+		CA09E7F119B03206007394F5 /* JCSDirectoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA09E7F019B03206007394F5 /* JCSDirectoryViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		CA09E7E119B02F42007394F5 /* FileViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FileViewTests-Info.plist"; sourceTree = "<group>"; };
 		CA09E7E319B02F42007394F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CA09E7E519B02F42007394F5 /* FileViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileViewTests.m; sourceTree = "<group>"; };
+		CA09E7EF19B03205007394F5 /* JCSDirectoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCSDirectoryViewController.h; sourceTree = "<group>"; };
+		CA09E7F019B03206007394F5 /* JCSDirectoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCSDirectoryViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,7 @@
 			children = (
 				CA09E7CF19B02F42007394F5 /* JCSAppDelegate.h */,
 				CA09E7D019B02F42007394F5 /* JCSAppDelegate.m */,
+				CA09E7F219B03210007394F5 /* Controllers */,
 				CA09E7D219B02F42007394F5 /* Images.xcassets */,
 				CA09E7C719B02F42007394F5 /* Supporting Files */,
 			);
@@ -142,6 +146,15 @@
 				CA09E7E219B02F42007394F5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA09E7F219B03210007394F5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CA09E7EF19B03205007394F5 /* JCSDirectoryViewController.h */,
+				CA09E7F019B03206007394F5 /* JCSDirectoryViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +253,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA09E7F119B03206007394F5 /* JCSDirectoryViewController.m in Sources */,
 				CA09E7CD19B02F42007394F5 /* main.m in Sources */,
 				CA09E7D119B02F42007394F5 /* JCSAppDelegate.m in Sources */,
 			);
