@@ -28,7 +28,7 @@
 - (id)initWithStyle:(UITableViewStyle)style
 {
   self = [self initWithPath:@"/" Style:UITableViewStylePlain];
-  self.title =  @"/";
+  self.title =  @"/"; 
   return self;
 }
 
